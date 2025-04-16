@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas - Formulário</title>
+    <link rel="stylesheet" href="./taskForm.css" />
+</head>
+<body>
+
+    <header>
+        <span>Nova Tarefa</span>
+        <a href="./taskList.html">Voltar para a lista</a>
+    </header>
+    
+
+    <form id="taskForm">
+        <label for="taskTitle">Título:</label>
+        <input type="text" name="taskTitle" id="taskTitle" placeholder="Escreva o título" required maxlength="60"/>
+
+        <label for="taskDescription">Descrição:</label>
+        <textarea name="taskDescription" id="taskDescription" placeholder="Descreva a tarefa" required></textarea>
+
+        <label for="taskDeadline">Prazo final:</label>
+        <input type="date" name="taskDeadline" id="taskDeadline" />
+        
+        <input type="submit" value="Enviar" />
+    </form>
+
+    <script src="./taskForm.js"></script>
+</body>
+</html>
