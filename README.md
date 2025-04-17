@@ -24,3 +24,9 @@ Este projeto é um site simples com a funcionalidade de **criar** e **deletar ta
 
    ```bash
    npm install
+5. **Execute o servidor de desenvolvimento**
+   
+   ```bash
+   npm run dev
+6. **O site estará disponível para interação em seu navegador**
+  
