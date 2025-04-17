@@ -8,7 +8,7 @@ Este projeto é um site simples com a funcionalidade de **criar** e **deletar ta
 - Criar tarefas com:
   - **Título** (obrigatório, máximo de 60 caracteres)
   - **Descrição** (obrigatória)
-  - **Prazo final** (opcional)
+  - **Prazo final** (obrigatório)
 - Visualizar os detalhes de cada tarefa
 - Deletar tarefas através da página de detalhes
 - Armazenamento das tarefas no **localStorage** do navegador
